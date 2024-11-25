@@ -7,7 +7,7 @@ interface DataSource {
 class Update implements DataSource {
     @Override
     public void execute() {
-        System.out.println("Executing Update Operation");
+        //System.out.println("Executing Update Operation");
     }
 }
 
@@ -15,7 +15,7 @@ class Update implements DataSource {
 class View implements DataSource {
     @Override
     public void execute() {
-        System.out.println("Executing View Operation");
+        //System.out.println("Executing View Operation");
     }
 }
 
@@ -23,7 +23,7 @@ class View implements DataSource {
 class Delete implements DataSource {
     @Override
     public void execute() {
-        System.out.println("Executing Delete Operation");
+        //System.out.println("Executing Delete Operation");
     }
 }
 
